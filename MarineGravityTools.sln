@@ -14,8 +14,25 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1_Archiving", "1_Archiving"
 		1_Archiving\readme_CH.md = 1_Archiving\readme_CH.md
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2_PreProcessing", "2_PreProcessing", "{89FD5E09-5527-4D13-B94F-810E8255FBDD}"
+	ProjectSection(SolutionItems) = preProject
+		mgtPreProcessing\__init__.py = mgtPreProcessing\__init__.py
+		mgtPreProcessing\gravlist.py = mgtPreProcessing\gravlist.py
+		mgtPreProcessing\ReadMe_CH.md = mgtPreProcessing\ReadMe_CH.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{424CDD9E-FDEB-47C2-8289-6A5923D03DB0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "mgtPreProcessing", "mgtPreProcessing", "{0B643B51-4583-4396-AFA2-5DED44D38380}"
+	ProjectSection(SolutionItems) = preProject
+		Test\2_PreProcessing\gravlist.py = Test\2_PreProcessing\gravlist.py
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0B643B51-4583-4396-AFA2-5DED44D38380} = {424CDD9E-FDEB-47C2-8289-6A5923D03DB0}
 	EndGlobalSection
 EndGlobal
